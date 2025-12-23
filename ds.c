@@ -352,7 +352,7 @@ void showFreeSlots() {
     printf("\n");
 }
 
-/* ----- Main menu ----- */
+//Main menu 
 int main() {
     initSystem();
     printf("Smart Parking System - Slots: %d, Waiting: %d\n", MAX_SLOTS, WAIT_CAP);
